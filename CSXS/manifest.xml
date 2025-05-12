@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="com.adobe.CEPHTMLTEST" ExtensionBundleVersion="1.0" Version="12.0"> <!-- MAJOR-VERSION-UPDATE-MARKER -->
     <ExtensionList>
-        <Extension Id="com.adobe.testing.Panel1" Version="12.0.0"/>
+        <Extension Id="com.adobe.notetaking.Panel1" Version="12.0.0"/>
     </ExtensionList>
     <ExecutionEnvironment>
         <HostList>
@@ -15,7 +15,7 @@
         </RequiredRuntimeList>
     </ExecutionEnvironment>
     <DispatchInfoList>
-        <Extension Id="com.adobe.testing.Panel1">
+        <Extension Id="com.adobe.notetaking.Panel1">
             <DispatchInfo>
                 <Resources>
                     <MainPath>./index.html</MainPath>
@@ -31,7 +31,7 @@
                 </Lifecycle>
                 <UI>
                     <Type>Panel</Type>
-                    <Menu>Extension Testing</Menu>
+                    <Menu>NoteTaking</Menu>
                     <Geometry>
                         <Size>
                             <Height>580</Height>
