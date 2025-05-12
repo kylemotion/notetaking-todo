@@ -1,1 +1,1 @@
-# A repository for testing and learning how to make an extension for After Effects
+# A repository for creating a todo list and notetaking app inside of After Effects
