@@ -1,7 +1,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <ExtensionList>
-    <Extension Id="com.adobe.kyle.Panel1">
+    <Extension Id="com.adobe.notetaking.Panel1">
         <HostList>
             <Host Name="AEFT" Port="8710"/>
         </HostList>
