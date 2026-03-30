@@ -19,30 +19,26 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body >
-<<<<<<< HEAD
-	<div id="header">
-		<h1>Notetaking</h1>
+	<h1 id="toolTitle">NOTETAKING</h1>
+	<div id="fileUtility">
+		<!-- <button>Load Notes</button> -->
 	</div>
-	
-	
-	<textarea id="input-text" rows="3" columns="30" placeholder="Enter task"></textarea>
-	<button id="add-button">Submit</button>
-	<button>Clear</button>
-	
-	<div id="todo-list">
+	<div id="notesWrittenDiv">
+		Notes will go here
 	</div>
-
-
-=======
-	<div class="header">
-		<h1 class="extension-title">NOTETAKING</h1>
+	<div id="submitNotesDiv" class="container">
+		<textarea name="notepad" id="notepadEntry" placeholder="Enter your note here..." class="roboto-font" rows="5" cols="10"></textarea>
+		<div id="buttonDiv">
+			<button id="createBtn" class="roboto-font">Create New Notes</button>
+			<button id="submitBtn" class="roboto-font">Submit Note</button>
+		</div>
 	</div>
-	<textarea type="text" id="input" placeholder="Enter your text here..." rows="10" cols="50"></textarea>
-	<button id="btn">Submit Notes</button>
->>>>>>> dd63bfcfab94850f1b7ae703ad889c49aa268070
 </body>
 
 <script src="./js/libs/CSInterface.js"></script>

@@ -1,13 +1,13 @@
-function createTextLayer(text){
-    var proj = app.project;
-    var comp = proj.activeItem;
-    if(comp && comp instanceof CompItem){
-        alert("Whoops! You don't have a comp open. Open one and try again.")
-        return;
+//@include "./json2.js"
+
+function returnFolderDirectory(){
+    var folderPath = Folder.selectDialog("Choose a folder");
+
+    if(!folderPath){
+        alert("Whoops!\rYou didn't pick a folder location for your notes. Pick a valid folder and try again.");
+        return
     }
 
-    app.beginUndoGroup("Create Text Layer");
-    var layer = comp.layers.addText(text);
-    app.endUndoGroup();
-}
 
+    return JSON.stringify(folderPath.fsName);
+}
